@@ -2,8 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LuCI: aria2\n"
 "POT-Creation-Date: 2017-11-30 23:45+0300\n"
-"PO-Revision-Date: 2025-05-02 07:28+0000\n"
-"Last-Translator: Maksim_220 Кабанов <law820314@gmail.com>\n"
+"PO-Revision-Date: 2025-08-10 18:02+0000\n"
+"Last-Translator: SnIPeRSnIPeR "
+"<snipersniper@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsaria2/ru/>\n"
 "Language: ru\n"
@@ -12,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 "Project-Info: Это технический перевод, не дословный. Главное-удобный русский "
 "интерфейс, все проверялось в графическом режиме, совместим с другими apps\n"
 
@@ -22,7 +23,7 @@ msgstr "<abbr title=\"Обнаружение локальных пиров\">LPD
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:551
 msgid "Additional BT tracker"
-msgstr "Дополнительный BT трекер"
+msgstr "Дополнительный BT-трекер"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:556
 msgid "Advanced Options"
@@ -34,7 +35,7 @@ msgstr "Все прокси"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:365
 msgid "Append HEADERs to HTTP request header."
-msgstr "Добавляет HEADER-ы в заголовок HTTP запроса."
+msgstr "Добавляет HEADER-ы в заголовок HTTP-запроса."
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:188
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:194
@@ -99,7 +100,7 @@ msgstr "Каталог расположения сonfig файла"
 
 #: applications/luci-app-aria2/root/usr/share/luci/menu.d/luci-app-aria2.json:15
 msgid "Configuration"
-msgstr "Конфиг"
+msgstr "Конфигурация"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:367
 msgid "Connect timeout"
@@ -149,12 +150,11 @@ msgstr "Каталог для загрузки"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:417
 msgid "Enable IPv4 DHT functionality. It also enables UDP tracker support."
-msgstr ""
-"Включает функциональность IPv4 DHT. Он также включает поддержку трекеров UDP."
+msgstr "Включить функционал IPv4 DHT. Также включает поддержку UDP-трекеров."
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:427
 msgid "Enable IPv6 DHT functionality."
-msgstr "Включить функциональность IPv6 DHT."
+msgstr "Включить функционал IPv6 DHT."
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:435
 msgid "Enable Local Peer Discovery."
@@ -249,17 +249,17 @@ msgstr "Здесь показаны файлы используемые aria2."
 msgid "IPv4 <abbr title=\"Distributed Hash Table\">DHT</abbr> enabled"
 msgstr ""
 "IPv4 <abbr title=\"Распределённая хеш таблица (Distributed Hash Table)"
-"\">DHT</abbr> включен"
+"\">DHT</abbr> включён"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:425
 msgid "IPv6 <abbr title=\"Distributed Hash Table\">DHT</abbr> enabled"
 msgstr ""
 "IPv6 <abbr title=\"Распределённая хеш таблица (Distributed Hash Table)"
-"\">DHT</abbr> включен"
+"\">DHT</abbr> включён"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:558
 msgid "IPv6 disabled"
-msgstr "Протокол IPv6 отключен"
+msgstr "Протокол IPv6 отключён"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:516
 msgid ""
@@ -283,7 +283,7 @@ msgstr "Установленный веб-интерфейс:"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:301
 msgid "Json-RPC URL"
-msgstr "URL-адрес Json-RPC"
+msgstr "URL-адрес JSON-RPC"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:488
 msgid "Keep in memory"
@@ -303,7 +303,7 @@ msgstr "Оставьте пустым, чтобы использовать по�
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:552
 msgid "List of additional BitTorrent tracker's announce URI."
-msgstr "Список дополнительных URI анонсов BitTorrent трекера."
+msgstr "Список дополнительных URI анонсов BitTorrent-трекера."
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:625
 msgid ""
@@ -440,7 +440,7 @@ msgstr "Параметры RPC"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:257
 msgid "RPC authentication method"
-msgstr "Метод аутентификации для доступа к удаленному управлению (RPC)"
+msgstr "Метод аутентификации для доступа к удалённому управлению (RPC)"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:283
 msgid "RPC certificate"
@@ -448,11 +448,11 @@ msgstr "Сертификат RPC"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:265
 msgid "RPC password"
-msgstr "Пароль для доступа к удаленному управлению (RPC)"
+msgstr "Пароль для доступа к удалённому управлению (RPC)"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:253
 msgid "RPC port"
-msgstr "Порт для доступа к удаленному управлению (RPC)"
+msgstr "Порт для доступа к удалённому управлению (RPC)"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:293
 msgid "RPC private key"
@@ -477,7 +477,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:262
 msgid "RPC username"
-msgstr "Логин для доступа к удаленному управлению (RPC)"
+msgstr "Логин для доступа к удалённому управлению (RPC)"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/log.js:62
 msgid "Refresh every %s seconds."
@@ -593,7 +593,7 @@ msgid ""
 "option."
 msgstr ""
 "Отправить <code>Cache-Control: no-cache</code> и <code>Pragma: no-cache</"
-"code> заголовки чтобы не кешировать содержимое. Если параметр отключен, то "
+"code> заголовки чтобы не кэшировать содержимое. Если параметр отключён, то "
 "заголовки не будут отправлены. Вы можете добавить Cache-Control заголовок с "
 "любым значением используя параметр \"Заголовки\"."
 
@@ -647,9 +647,9 @@ msgid ""
 "server. After the connection is established, this option makes no effect and "
 "\"Timeout\" option is used instead."
 msgstr ""
-"Установите таймаут подключения в секундах для установления соединения с HTTP/"
-"FTP/прокси-сервером. После установления соединения эта опция не имеет "
-"эффекта и вместо нее используется опция \"Timeout\"."
+"Установите тайм-аут подключения в секундах для установления соединения с "
+"HTTP/FTP/прокси-сервером. После установления соединения эта опция не имеет "
+"эффекта и вместо неё используется опция \"Timeout\"."
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:404
 msgid "Set the seconds to wait between retries."
@@ -746,7 +746,7 @@ msgstr ""
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:524
 msgid "Stop timeout"
-msgstr "Таймаут остановки"
+msgstr "Тайм-аут остановки"
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:36
 msgid "The Aria2 service is not running."
@@ -780,7 +780,7 @@ msgstr "Максимальное число подключений к одном
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:445
 msgid "This option will be ignored if a private flag is set in a torrent."
 msgstr ""
-"Этот параметр будет проигнорирован, если указан приватный флаг в торренте."
+"Эта опция будет проигнорирована, если в торренте установлен приватный флаг."
 
 #: applications/luci-app-aria2/htdocs/luci-static/resources/view/aria2/config.js:373
 msgid "Timeout"

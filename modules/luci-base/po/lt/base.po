@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2025-04-26 19:16+0000\n"
+"PO-Revision-Date: 2025-07-05 23:02+0000\n"
 "Last-Translator: Džiugas Januševičius <dziugas1959@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/openwrt/luci/"
 "lt/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "(n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1076
 msgid "!known (not known)"
@@ -93,7 +93,7 @@ msgstr "-- Papildomas Laukas --"
 
 #: modules/luci-base/htdocs/luci-static/resources/cbi.js:275
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3745
-#: modules/luci-base/htdocs/luci-static/resources/form.js:4126
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4113
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:799
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:1037
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2030
@@ -1393,7 +1393,7 @@ msgstr "Atgal į lygiarangio konfigūracija"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:391
 msgid "Backup"
-msgstr "Atkūrimas/Sukurti atsarginę kopiją"
+msgstr "Atsarginė kopija"
 
 #: modules/luci-mod-system/root/usr/share/luci/menu.d/luci-mod-system.json:128
 msgid "Backup / Flash Firmware"
@@ -2113,7 +2113,7 @@ msgstr ""
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:368
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/startup.js:55
 msgid "Contents have been saved."
-msgstr "Turinys buvo išsaugotas."
+msgstr "Tūriniai buvo išsaugoti."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:434
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:468
@@ -2409,7 +2409,7 @@ msgid ""
 "\"<code>6,192.168.2.1,192.168.2.2</code>\" which advertises different DNS "
 "servers to clients."
 msgstr ""
-"Apibrėžti papildomas „DHCP“ parinktys, pavyzdžiui, "
+"Apibrėžti papildomas „DHCP“ parinktis, pavyzdžiui, "
 "„<code>6,192.168.2.1,192.168.2.2</code>“, kuriomis klientams reklamuojami "
 "skirtingi „DNS“ serveriai."
 
@@ -3316,7 +3316,7 @@ msgstr "Įjungti vienadresinį užtvindymą"
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:109
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:118
 msgid "Enabled"
-msgstr "Įjungta/Įgalinta (-s/-i)"
+msgstr "Įjungtas/Įgalintas"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:592
 msgid "Enables IGMP snooping on this bridge"
@@ -3482,6 +3482,7 @@ msgstr "Papildyti skleidėjų/vedėjų"
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:114
 msgid "Expect netlink reply to add MAC address into VXLAN FDB"
 msgstr ""
+"Tikėtis „netlink“ atsakymo, kad į – „VXLAN FDB“ būtų pridėtas „MAC“ adresas"
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:120
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:120
@@ -3596,12 +3597,12 @@ msgstr "Papildomos „sstpc“ parinktys"
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:98
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:98
 msgid "FDB"
-msgstr ""
+msgstr "„FDB“"
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:77
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:77
 msgid "FDB entry lifetime"
-msgstr ""
+msgstr "„FDB“ įrašo gyvavimo laikas"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:942
 msgid "FQDN"
@@ -3830,6 +3831,7 @@ msgstr "Sekti IPv4 gyvavimo laiką"
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:211
 msgid "For multicast, an outgoing interface (%s) needs to be specified"
 msgstr ""
+"Daugiaadresiniam transliavimui, reikia nurodyti išsiunčiamą sąsają (%s)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:793
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:730
@@ -3958,7 +3960,7 @@ msgstr "Persiųsti/Atvirkštinis „DNS“"
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:98
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:98
 msgid "Forwarding DataBase"
-msgstr ""
+msgstr "Persiunčiama duomenų bazė"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1672
 msgid "Forwarding mode"
@@ -3985,6 +3987,8 @@ msgstr "Viso/Pilno prievado atsitiktinių imčių nustatymas"
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:178
 msgid "Further information about VXLAN interfaces and peers %s."
 msgstr ""
+"Daugiau informacijos apie „VXLAN“ sąsajas ir/arba sietuvus ir lygiarangius "
+"%s."
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:200
 msgid ""
@@ -3997,7 +4001,7 @@ msgstr ""
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:123
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:123
 msgid "GBP"
-msgstr ""
+msgstr "„GBP“"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:128
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:184
@@ -4269,7 +4273,7 @@ msgstr "Duoti/Suteikti prieigą į belaidžio/bevielio statuso rodymą"
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:124
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:124
 msgid "Group Based Policy (VXLAN-GBP) extension"
-msgstr ""
+msgstr "Grupės pagrįsta politika („GBP“), („VXLAN-GBP“) plėtinys"
 
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:66
 msgid "Group Password"
@@ -4491,6 +4495,9 @@ msgid ""
 "IP address of the remote VXLAN tunnel endpoint where the MAC address (Layer "
 "2 Address) resides or a multicast address for a group of peers."
 msgstr ""
+"Nuotolinio „VXLAN“ „tunelio“ – tinklo protokolas, skirtas šifruoti/pereiti į "
+"kitą tinklą galutinis taškas, kuriame yra „MAC“ adresas (2-o sluoksnio "
+"adresas), IP adresas arba daugiaadresis adresas lygiarangių grupei."
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:793
 msgid ""
@@ -4832,6 +4839,8 @@ msgstr "Jeigu pažymėtą, šifravimas bus/yra atjungtas/neįjungtas/neįgalinta
 msgid ""
 "If destination MAC refers to router, replace it with destination MAC address"
 msgstr ""
+"Jei paskirties „MAC“ nurodo maršrutizatorių, pakeiskite jį su paskirties "
+"„MAC“ adresu"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:226
 msgid ""
@@ -5441,6 +5450,8 @@ msgstr "Nužudyti"
 msgid ""
 "L2 (MAC) address of peer. Uses source-address learning when %s is specified"
 msgstr ""
+"„L2 (MAC)“ lygiarangio adresas. Naudojamas šaltinio adreso mokymasis, kai %s "
+"yra nurodytas"
 
 #: modules/luci-compat/luasrc/model/network/proto_ppp.lua:21
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/l2tp.js:10
@@ -5518,7 +5529,7 @@ msgstr "Naujausias išankstinis suderinimas"
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:201
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:201
 msgid "Layer 2 Address"
-msgstr ""
+msgstr "2-ojo sluoksnio adresas"
 
 #: protocols/luci-proto-hnet/htdocs/luci-static/resources/protocol/hnet.js:21
 msgid "Leaf"
@@ -5535,7 +5546,7 @@ msgstr "Išmokti/-inti maršrutus"
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:96
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:96
 msgid "Learning"
-msgstr ""
+msgstr "Mokymasis"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:558
 msgid "Lease file"
@@ -5803,7 +5814,7 @@ msgstr "Vietinis „ULA“"
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:48
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:48
 msgid "Local VTEP"
-msgstr ""
+msgstr "Vietinis „VTEP“"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:356
 msgid "Local domain"
@@ -5907,7 +5918,7 @@ msgstr "Laisvas/Netikslus filtravimas"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:973
 msgid "Low-Density Parity-Check"
-msgstr ""
+msgstr "Mažo tankio suvienodinimo patikrinimas"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:713
 msgid "Lowest leased address as offset from the network address."
@@ -6663,7 +6674,7 @@ msgstr "Naujas sąsajos ir sietuvo pavadinimas…"
 msgid "Next »"
 msgstr "Tolyn »"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:4063
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4050
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:298
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:346
 msgid "No"
@@ -6820,7 +6831,7 @@ msgstr "Dar nėra viešųjų raktų."
 
 #: modules/luci-base/htdocs/luci-static/resources/tools/views.js:20
 msgid "No related logs yet!"
-msgstr "Nėra jokių žurnalų (kol kas)!"
+msgstr "Dar nėra susijusių žurnalų!"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:616
 msgctxt "nft chain is empty"
@@ -7004,12 +7015,12 @@ msgstr "Įjungta/Įgalinta (-s)"
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:112
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:112
 msgid "On a l2miss, send ARP"
-msgstr ""
+msgstr "Esant – „l2miss“, siųskite „ARP“"
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:118
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:118
 msgid "On a l3miss, send ARP for IP -> mac resolution"
-msgstr ""
+msgstr "Esant – „l3miss“, siųskite „ARP“, skirtam IP -> „mac“ rezoliucija/-ai"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/timer.js:12
 msgid "On-State Delay"
@@ -7054,7 +7065,7 @@ msgstr "Priimti atsakymus tik per"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:185
 msgid "Only affects dmesg kernel log"
-msgstr ""
+msgstr "Tik paveikia „dmesg“ branduolio („kernel“) žurnalą"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:769
 msgid "Only allow communication with non-isolated bridge ports when enabled"
@@ -7133,7 +7144,7 @@ msgid "Operator Name"
 msgstr "Operatorio pavadinimas"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2006
-#: modules/luci-base/htdocs/luci-static/resources/form.js:4075
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4062
 msgid "Option \"%s\" contains an invalid input value."
 msgstr "Parinktį – „%s“ yra negaliojanti įvesties reikšmė."
 
@@ -7731,7 +7742,7 @@ msgstr "Išsami informacija apie lygiarangį"
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:210
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:241
 msgid "Peer IP"
-msgstr ""
+msgstr "Lygiarangio IP"
 
 #: protocols/luci-proto-pppossh/htdocs/luci-static/resources/protocol/pppossh.js:89
 msgid "Peer IP address to assign"
@@ -8448,7 +8459,7 @@ msgstr "Nuotolinis IPv6 adresas arba „FQDN“"
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:43
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:43
 msgid "Remote VTEP"
-msgstr ""
+msgstr "Nuotolinis „VTEP“"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:901
 msgid "Remove"
@@ -8789,7 +8800,7 @@ msgstr "Maršuto veiksmo grandinė „%h“"
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:103
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:103
 msgid "Route short-circuit (RSC)"
-msgstr ""
+msgstr "Trumpoji maršruto grandinė („RSC“ – „Route short-circuit“)"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:46
 msgid "Route type"
@@ -8861,7 +8872,7 @@ msgstr "Vykdančioji klaida"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:973
 msgid "Rx LDPC"
-msgstr ""
+msgstr "Atsiųsto/Gauto reaktyviai priėmimas naudojant – „LDPC“"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:224
 msgid "SHA256"
@@ -10052,7 +10063,7 @@ msgstr "Taikinys"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js:58
 msgid "Target Platform"
-msgstr "Taikomoji platformą"
+msgstr "Taikomoji platforma"
 
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:103
 msgid "Target network"
@@ -10594,8 +10605,8 @@ msgid ""
 "address of your computer to reach the device again, depending on your "
 "settings."
 msgstr ""
-"Dabar sistema mirksi.„<br /> NEIŠJUNKITE ĮRENGINIO!<br />“ Prieš bandydami "
-"vėl prisijungti, palaukite kelias minutes. Priklausomai nuo nustatymų, gali "
+"Sistema yra įrašoma.<br /> NEIŠJUNKITE ĮRENGINIO!<br /> Prieš bandydami vėl "
+"prisijungti, palaukite kelias minutes. Priklausomai nuo nustatymų, gali "
 "prireikti atnaujinti kompiuterio adresą, kad vėl pasiektumėte įrenginį."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:163
@@ -11974,7 +11985,7 @@ msgstr "Įrašyti sistemos žurnalą į failą"
 msgid "XOR policy (balance-xor, 2)"
 msgstr "„XOR“ politika („xor balansas, 2“)"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:4063
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4050
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:297
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:345
 msgid "Yes"
